@@ -7,22 +7,22 @@ check out -> 프로젝트 우클릭 -> Configure -> Convert to Maven Project (�
 
 프로젝트 우클릭 -> Maven -> Update Project
 
-
 그후 외부 톰캣(9.0) 설정 후 구동
 
 만약 NPM 오류 발생시 해당 프로젝트 위치
 
-cd frontend
-npm install
-npm run build
+# cd frontend
+# npm install
+# npm run build
 
+업데이트 후 플래그인들이 쌓여 양이 많기에 해당 플러그인들은 뺴고 커밋하였음.
 기본 세팅 : 
 port : 8000
 application.properties로 local, dev 변환. 기본 applcation-local.properties 사용
 
 map.js (npm 사용 js) 수정 시 바로 확인 하고 싶을 때
 프로젝트 위치에서 
-cd frontend
-npm run dev
+# cd frontend
+# npm run dev
 입력 후 js 수정 확인
 
