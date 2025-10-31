@@ -1,4 +1,3 @@
-
 개발환경 : SVN 세팅.
 SVN Repositories -> new -> Repository Location
 
@@ -8,7 +7,6 @@ check out -> 프로젝트 우클릭 -> Configure -> Convert to Maven Project (�
 
 프로젝트 우클릭 -> Maven -> Update Project
 
-<img width="193" height="83" alt="image" src="https://github.com/user-attachments/assets/b3350a06-9ac2-4e50-9925-c40ec3464191" />
 
 그후 외부 톰캣(9.0) 설정 후 구동
 
